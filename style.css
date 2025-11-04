@@ -1,0 +1,143 @@
+body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        background: #fff;
+        border-radius: 10px;
+        width: 360px;
+        padding: 40px;
+        margin: auto;
+        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.2);
+    }
+
+    .sign-in {
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .judul{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        margin-bottom: 10px;
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    .subjudul{
+        margin-right: 6px;
+    }
+
+    .btn{
+        display: flex;
+        font-size: 15px;
+        border-radius: 8px;
+        font-weight: 400;
+        border: 1px solid lightgrey;
+        text-decoration: none;
+        color: black;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    img{
+        height: 15px;
+        width: 15px;
+        padding-right: 5px;
+    }
+
+    .btn-auth{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .pembatas{
+        text-align: center;
+        border-bottom: 1px solid gray;
+        line-height: 1px;
+        margin: 20px 0;
+        font-size: 15px;
+        color: gray;
+    }
+
+    .pembatas span{
+        background: #fff;
+        padding: 0 10px;
+    }
+
+    .email{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        gap: 5px;
+        padding-bottom: 20px;
+    }
+
+    .email input{
+        padding: 10px;
+        border-radius: 5px;
+        border: lightgray solid 1px;
+    }
+
+    .password{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .password i{
+        font-size: 1.25rem;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-0%);
+        cursor: pointer;
+    }
+
+    .password input{
+        padding: 10px;
+        border-radius: 5px;
+        border: lightgrey solid 1px;
+    }
+
+    .judul-password{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .judul-password a{
+        text-decoration: none;
+        color: royalblue;
+    }
+
+    .checklist{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .checklist span{
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .btn-sign{
+        margin: auto;
+        padding-left: 155px;
+        padding-right: 155px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #fff;
+        background-color: royalblue;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
